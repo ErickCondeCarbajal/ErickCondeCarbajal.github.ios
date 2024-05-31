@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Avengers</title>
+    <style>
+        /* Estilo base para eliminar márgenes y asegurar que el body ocupa toda la ventana */
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        
+        /* Estilo para el body con la imagen de fondo */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('ruta/a/tu/imagen.jpg'); /* Cambia esto por la ruta de tu imagen */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+        /* Estilo para el main */
+        main {
+            text-align: center; /* Opcional: centra el texto dentro del main */
+            background: rgba(255, 255, 255, 0.8); /* Fondo semitransparente para mejor legibilidad */
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        /* Estilos adicionales opcionales */
+        #menu {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        #menu li {
+            display: inline;
+            margin: 0 10px;
+        }
+        
+        #pie img {
+            width: 50px; /* Ajusta el tamaño de las imágenes */
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>THE AVENGERS</h1>
+            <p>Si no podemos proteger la Tierra, puedes estar seguro de que la vengaremos. (Tony Stark)</p>
+            <nav>
+                <ul id="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                </ul>
+            </nav>
+            <footer>
+                <div id="pie">
+                    <a href="https://www.instagram.com/marvel/"><img src="img/instagram.jpg" alt="Instagram"></a> 
+                    <a href="https://x.com/Marvel"><img src="img/X.jpg" alt="X"></a>
+                    <a href="https://www.youtube.com/@marvel"><img src="img/youtube.jpg" alt="YouTube"></a>
+                    <a href="https://www.facebook.com/MarvelLatinoamerica"><img src="img/Facebook.jpg" alt="Facebook"></a>
+                </div>
+            </footer>
+        </section>
+    </main>
+</body>
+</html>
