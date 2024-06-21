@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+   }
+   body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color:blanchedalmond;
+}
+
+main {
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    width: 55%;
+    background-color:aliceblue;
+    flex-wrap: wrap;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section h1 {
+    font-size: 80px;
+    color: black;
+    padding: 20px;
+}
+p {
+    color: black;
+    padding: 20px;
+}
+
+.titulo {
+    border: 5px solid black;
+    color: black;
+}
+
+#menu {
+    list-style-type: none;
+    padding: 40px;
+    display: flex;
+}
+.icon {
+    width: 16px;  
+    height: 16px;
+    margin-right: 5px; 
+    vertical-align: middle; 
+}
+#menu li {
+    display: inline;
+    margin-left: 25px;
+
+}
+
+#menu li a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    border-radius: 85px;
+    color: blue;
+}
+
+#menu a:hover {
+    background-color: black;
+    color: white;
+}
+h2{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+.grip{
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "main sidebar"
+        "footer footer";
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 20px;
+    padding: 20px;
+}
+
+.grip .header {
+    grid-area: header;
+    background-color:darkslateblue;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+.grip .contenido {
+    grid-area: main;
+    background-color:whitesmoke;
+}
+
+.grip .sidebar {
+    grid-area: sidebar;
+}
+.grip .sidebar img{
+    height: 670px;
+}
+.grip .widget{
+    display: flex;
+    justify-content: center;
+} 
+.grip .widget img{
+    height: 180px;
+    border-radius: 35%;
+}
+.vengadores2{
+    padding-left: 10px;
+}
+
+.grip .footer {
+    grid-area: footer;
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
+    font-size: 25px;
+    background-color: darkslateblue;
+}
+
+
+th{
+    border: 1px solid black;
+    padding: 20px;
+}
+table{
+    margin: 15px;
+    width: 100%;
+}
+figure {
+    position: relative;
+}
+.gradient-img {
+    display: block;
+    width: 41%;
+    height: auto;
+    position: relative; 
+    margin: 0 auto; 
+}
+
+.gradient-img img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.gradient-img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(white, black);
+    pointer-events: none;
+    opacity: 0.5; 
+}
+
+
+.columnas h3{
+    color: crimson;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.columnas{
+    column-count: 2;
+}
+.columnas input{
+    width: 70%;
+    height: 40px;
+    text-align:center;
+}
+.mapa{
+    border: 15px solid white;
+    margin: 20px;
+
+}
+#pie {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+#pie img {
+    width: 40px;
+    margin: 0 10px;
+    border-radius: 60px;
+
+}
