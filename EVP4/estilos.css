@@ -1,0 +1,12 @@
+#carouselExample img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+.img-fluid{
+    width: 600px;
+}
+.container {
+    background: linear-gradient(to right, skyblue,blue 
+    );
+}
